@@ -1,0 +1,16 @@
+Portal Browser — deployment package validation
+
+Checks performed:
+- server.js Node syntax: PASS
+- inline browser JavaScript syntax: PASS
+- service worker JavaScript syntax: PASS
+- required static files and package start script: PASS
+- dependency installation and real server startup: NOT VERIFIED (npm install timed out in this environment).
+
+.node-version  sha256=f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56
+README.txt  sha256=7a13462cfb223485beecb97a9716de53869725ee1f0795ec569aba57ee0c2110
+package.json  sha256=10a984213661ed7af3d7ca43d47673b70d191a0d844b6bd8336fc36ab09dbc57
+public/index.html  sha256=e8b6a4f587440b8f8b85c85ddcbe36e4b7b629914496a1615c16f28bb14291d9
+public/sw.js  sha256=a1e23a1611d01f7f87b79ba8ae73be776e21655c3c88d465a3c0146ebfa384aa
+render.yaml  sha256=8605c3f9495aeef0595701d67e857d5c338f5c11de98aeb442ebbf4ae8f53ba0
+server.js  sha256=54ffd60a4f5927e51462fd38ff6c242e9d8aa859c4f45187df3e833b9ef880c9
